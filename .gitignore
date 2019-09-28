@@ -11,7 +11,12 @@
 # production
 /build
 
+#keys and configs
+FB_CONFIG.js
+
 # misc
+
+.env
 .DS_Store
 .env.local
 .env.development.local

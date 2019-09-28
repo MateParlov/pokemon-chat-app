@@ -1,0 +1,66 @@
+.LogIn {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  align-items: center;
+  background: white;
+  min-height: 100vh;
+}
+.MainTitle {
+  color: black;
+  font-size: 2.7em;
+  margin-bottom: 50px;
+}
+
+.LogInBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background: black;
+  color: white;
+}
+
+.LogInForm {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.FormField {
+  display: flex;
+  flex-direction: column;
+}
+.FormField label {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 9px;
+}
+.FormField input {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  font-size: 1.1em;
+  color: white;
+  width: 200px;
+  outline: none;
+  background: transparent;
+}
+
+.submitBtn {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.submitBtn:hover {
+  background: white;
+  color: black;
+}

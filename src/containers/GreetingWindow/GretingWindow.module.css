@@ -1,0 +1,46 @@
+.GreetingWindow {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(234.63deg, #ae49bc 1.72%, #5997c6 97.57%);
+}
+.GreetingWindow h1 {
+  color: white;
+  font-size: 5em;
+}
+.GreetingWindow nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.GreetingWindow a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 10px;
+  margin: 0 15px;
+  border-bottom: 2px solid rgb(15, 196, 165);
+}
+.Poke1 {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 30%;
+  height: 40%;
+
+  background: url('./../../assets/images/arb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Poke2 {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 30%;
+  height: 40%;
+
+  background: url('./../../assets/images/Blas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

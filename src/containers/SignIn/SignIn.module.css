@@ -1,0 +1,81 @@
+.SignIn {
+  min-height: 100vh;
+  display: flex;
+}
+
+.FormBox {
+  position: fixed;
+  width: 400px;
+  height: 100vh;
+  background: black;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FormBox form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.FormField {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 190px;
+}
+
+.FormField label {
+  color: white;
+  font-size: 1.1em;
+}
+.FormField input {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  font-size: 1.1em;
+  color: white;
+  width: 200px;
+}
+
+.submitFormBtn {
+  width: 200px;
+  height: 90px;
+  margin: 0 auto;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: 1.4em;
+}
+.submitFormBtn:hover {
+  background: white;
+  color: black;
+}
+
+.ChoosePokemonBox {
+  height: 100vh;
+  width: 100%;
+  flex-grow: 1;
+  background: white;
+}
+
+.ProfOak {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  background: url('./../../assets/images/pOak.png') bottom center;
+  background-size: contain;
+  width: 400px;
+  min-height: 72vh;
+  background-repeat: no-repeat;
+}
