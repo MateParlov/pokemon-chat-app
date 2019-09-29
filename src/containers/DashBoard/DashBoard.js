@@ -16,10 +16,17 @@ class DashBoard extends Component {
       if (!user) {
         this.props.history.push('/');
       } else {
-        /*  await firebase
-            .firestore()
-            .doc('chats')
-            .where('chats','array-containes',user.email) */
+        await firebase
+          .firestore()
+          .collection('chats')
+          .where('users', 'array-contains', user.email)
+          .get()
+          .then(data => {
+            const newChats = [];
+            data.docs.map(_data => {
+              console.log(_data.data());
+            });
+          });
       }
     });
   };
